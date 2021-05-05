@@ -78,18 +78,18 @@ p {color: hsl(201, 11%, 66%);}
 #download p {padding: 4% 0;}
 
 /* FOOTER SECTION */
-#footer {
+footer {
   padding: 3% 0 1%;
   background-color: #f3f4ed;
 }
 
-#footer ul {
+footer ul {
   column-count: 1;
   list-style: none;
   padding: 0;
 }
 
-#footer li {padding: 1rem 0;}
+footer li {padding: 1rem 0;}
 
 .query-logo img {
   width: 3rem;
@@ -170,14 +170,14 @@ p {color: hsl(201, 11%, 66%);}
   #download p {padding: 4% 10%;}
 
   /* FOOTER SECTION */
-  #footer ul {
+  footer ul {
     column-count: 3;
     text-align: left;
     column-gap: 3rem;
     padding-left: 15%;
   }
 
-  #footer li {padding: 0.5rem 0;}
+  footer li {padding: 0.5rem 0;}
 
   .query-logo img {margin: 7% 5%;}
 
@@ -242,20 +242,20 @@ p {color: hsl(201, 11%, 66%);}
   #download p {padding: 1% 27%;}
 
   /* FOOTER SECTION */
-  #footer .container-fluid {
+  footer .container-fluid {
     display: flex;
     padding: 0 8%;
     justify-content: space-around;
   }
 
-  #footer ul {
+  footer ul {
     column-count: 3;
     column-gap: 7rem;
     text-align: left;
     padding-left: 0;
   }
 
-  #footer li {padding: 0.5rem 0;}
+  footer li {padding: 0.5rem 0;}
 
   .query-links {display: flex;}
 
