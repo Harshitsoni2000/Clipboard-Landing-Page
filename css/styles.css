@@ -16,7 +16,10 @@ h1 {font-size: 32px;}
 h3 {font-size: 24px;}
 h4 {font-size: 20px;}
 
-p {color: hsl(201, 11%, 66%);}
+p {
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+}
 
 /* TITLE SECTION */
 #title {padding: 10% 8%;}
@@ -38,7 +41,7 @@ p {color: hsl(201, 11%, 66%);}
 }
 
 /* CLIPBOARD SECTION */
-#clipboard {padding: 6% 8%;}
+#clipboard {padding: 8%;}
 
 #clipboard img {width: 100%;}
 
@@ -73,14 +76,14 @@ p {color: hsl(201, 11%, 66%);}
 }
 
 /* DOWNLOAD SECTION */
-#download {padding: 2% 8% 10%;}
+#download {padding: 6% 8% 30%;}
 
 #download p {padding: 4% 0;}
 
 /* FOOTER SECTION */
 footer {
   padding: 3% 0 1%;
-  background-color: #f3f4ed;
+  background-color: hsl(201, 11%, 96%);
 }
 
 footer ul {
@@ -154,7 +157,7 @@ footer li {padding: 1rem 0;}
   .snip_row2 p {padding: 0 10%;}
 
   /* CLIPBOARD SECTION */
-  #clipboard {padding: 5% 15%;}
+  #clipboard {padding: 8% 15%;}
 
   /* WORKFLOW SECTION */
   #workflow {padding: 5% 13% 10%;}
@@ -216,7 +219,11 @@ footer li {padding: 1rem 0;}
   .snip_row2 p {padding: 0 42% 0 0;}
 
   /* CLIPBOARD SECTION */
-  #clipboard {padding: 4% 15% 0;}
+  #clipboard {padding: 8% 15% 6%;}
+
+  #clipboard p {
+    padding: 0 15%;
+  }
 
   #clipboard img {width: 90%;}
 
@@ -237,7 +244,7 @@ footer li {padding: 1rem 0;}
   }
 
   /* DOWNLOAD SECTION */
-  #download {padding: 2% 8% 5%;}
+  #download {padding: 6% 8% 12%;}
 
   #download p {padding: 1% 27%;}
 
