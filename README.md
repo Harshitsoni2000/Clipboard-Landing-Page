@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-View](ss/Desktop-view.PNG)
-![Laptop(1440px)-View](ss/Laptop-view.PNG)
-![Tablet-View](ss/Tablet-view.PNG)
-![Mobile-View](ss/Mobile-view.PNG)
+![Desktop-View](ss/Desktop-view.png)
+![Laptop(1440px)-View](ss/Laptop-view.png)
+![Tablet-View](ss/Tablet-view.png)
+![Mobile-View](ss/Mobile-view.png)
 
 ### Links
 
