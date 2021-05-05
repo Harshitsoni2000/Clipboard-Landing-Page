@@ -1,7 +1,7 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
-  background: no-repeat url(../images/bg-header-mobile.PNG);
+  background: no-repeat url(../images/bg-header-mobile.png);
   background-position: top;
   background-size: 100% 15%;
   font-size: 16px;
@@ -186,7 +186,7 @@ p {color: hsl(201, 11%, 66%);}
 
 @media (min-width: 992px) {
   body {
-    background: no-repeat url(../images/bg-header-desktop.PNG);
+    background: no-repeat url(../images/bg-header-desktop.png);
     background-position: top;
     background-size: 100% 20%;
   }
@@ -258,5 +258,5 @@ p {color: hsl(201, 11%, 66%);}
   #footer li {padding: 0.5rem 0;}
 
   .query-links {display: flex;}
-  
+
 }
