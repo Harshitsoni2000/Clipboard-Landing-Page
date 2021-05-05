@@ -1,38 +1,262 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
-  font-size: 18px;
+  background: no-repeat url(../images/bg-header-mobile.PNG);
+  background-position: top;
+  background-size: 100% 15%;
+  font-size: 16px;
 }
 
-h2, h3, h4 {
+h1, h3, h4 {
   font-weight: 600;
   color: hsl(210, 10%, 33%);
 }
 
-p {
-  color: hsl(201, 11%, 66%);
+h1 {font-size: 32px;}
+h3 {font-size: 24px;}
+h4 {font-size: 20px;}
+
+p {color: hsl(201, 11%, 66%);}
+
+/* TITLE SECTION */
+#title {padding: 10% 8%;}
+
+#title img {margin: 4% 0 12%;}
+
+#title p {margin-bottom: 2rem;}
+
+/* SNIPPETS SECTION */
+#snippets {padding: 12% 8%;}
+
+.snip-cont p {margin-bottom: 3rem;}
+
+#snippets .snip_row1 {justify-content: center;}
+
+#snippets img {
+  width: 100%;
+  margin-bottom: 4rem;
 }
 
-#title {
-  padding: 10% 8%;
+/* CLIPBOARD SECTION */
+#clipboard {padding: 6% 8%;}
+
+#clipboard img {width: 100%;}
+
+#clipboard p {margin-bottom: 3rem;}
+
+/* WORKFLOW SECTION */
+#workflow {padding: 10% 15%;}
+
+.workflow_row1 div {padding: 20% 1% 6%;}
+
+.workflow_row1 h4 {padding: 2% 0;}
+
+.workflow_row1 img {
+  position: absolute;
+  top: 10%;
+  right: 45%;
+  left: 45%;
 }
 
+.workflow_row2 {
+  justify-content: space-between;
+  padding: 20% 0 25%;
+}
+
+.workflow_row2 div {
+  padding: 10% 0;
+}
+
+.workflow_row2 img {
+  width: 100%;
+  max-width: 165px;
+}
+
+/* DOWNLOAD SECTION */
+#download {padding: 2% 8% 10%;}
+
+#download p {padding: 4% 0;}
+
+/* FOOTER SECTION */
+#footer {
+  padding: 3% 0 1%;
+  background-color: #f3f4ed;
+}
+
+#footer ul {
+  column-count: 1;
+  list-style: none;
+  padding: 0;
+}
+
+#footer li {padding: 1rem 0;}
+
+.query-logo img {
+  width: 3rem;
+  height: 3rem;
+  margin: 7% 5% 10%;
+}
+
+.query-links a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
+.query-icons i {
+  color: hsl(210, 10%, 33%);
+  margin: 0 1rem 1rem 0;
+}
+
+.query-links a:hover, .query-icons i:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+/* BUTTONS */
 .btn {
   border-radius: 6.25rem;
   font-size: 1rem;
   color: #fff;
-  width: 12rem;
   box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.2);
   margin: 0.6rem;
+  width: 80%;
+  height: 48px;
 }
+
 .ios-btn {background-color: hsl(171, 66%, 44%);}
+
 .Mac-btn {background-color: hsl(233, 100%, 69%);}
 
-
-@media (min-width: 720px) {
-
+.btn:hover {
+  color: #fff;
+  opacity: 0.7;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 720px) {
+  body {font-size: 18px;}
 
+  h1 {font-size: 40px;}
+  h3 {font-size: 28px;}
+  h4 {font-size: 24px;}
+
+  /* TITLE SECTION */
+  #title {padding: 5% 15% 7%;}
+
+  #title .img {margin: 10% 0 8%;}
+
+  /* SNIPPETS SECTION */
+  #snippets {padding: 5% 15%;}
+
+  .snip_row1 p {
+    padding: 0 8%;
+    margin-bottom: 4rem;
+  }
+
+  .snip_row2 p {padding: 0 10%;}
+
+  /* CLIPBOARD SECTION */
+  #clipboard {padding: 5% 15%;}
+
+  /* WORKFLOW SECTION */
+  #workflow {padding: 5% 13% 10%;}
+
+  .workflow_row1 div {padding: 10% 1% 6%;}
+
+  .workflow_row2 {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  /* DOWNLOAD SECTION */
+  #download p {padding: 4% 10%;}
+
+  /* FOOTER SECTION */
+  #footer ul {
+    column-count: 3;
+    text-align: left;
+    column-gap: 3rem;
+    padding-left: 15%;
+  }
+
+  #footer li {padding: 0.5rem 0;}
+
+  .query-logo img {margin: 7% 5%;}
+
+  .btn {width: 12rem;}
+}
+
+@media (min-width: 992px) {
+  body {
+    background: no-repeat url(../images/bg-header-desktop.PNG);
+    background-position: top;
+    background-size: 100% 20%;
+  }
+
+  /* TITLE SECTION */
+  #title img {margin: 5% 0;}
+
+  #title p {padding: 0 18%;}
+
+  /* SNIPPETS SECTION */
+  #snippets {padding: 5% 0;}
+
+  #snippets .snip_row2 {text-align: left;}
+
+  #snippets img {
+    margin: 0;
+    height: 100%;
+    width: 95%;
+    position: relative;
+    left: -8%;
+  }
+
+  .snip_row1 p {padding: 0 25%;}
+
+  .snip_row2 div:nth-child(2) {padding-top: 2%;}
+
+  .snip_row2 p {padding: 0 42% 0 0;}
+
+  /* CLIPBOARD SECTION */
+  #clipboard {padding: 4% 15% 0;}
+
+  #clipboard img {width: 90%;}
+
+  /* WORKFLOW SECTION */
+  #workflow {padding: 5% 13%;}
+
+  .workflow_row1 div {padding: 8% 1% 6%;}
+
+  .workflow_row1 img {
+    position: absolute;
+    top: 12%;
+    right: 45%;
+    left: 45%;
+  }
+
+  .workflow_row2 div {
+    padding: 6% 0;
+  }
+
+  /* DOWNLOAD SECTION */
+  #download {padding: 2% 8% 5%;}
+
+  #download p {padding: 1% 27%;}
+
+  /* FOOTER SECTION */
+  #footer .container-fluid {
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-around;
+  }
+
+  #footer ul {
+    column-count: 3;
+    column-gap: 7rem;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  #footer li {padding: 0.5rem 0;}
+
+  .query-links {display: flex;}
+  
 }
